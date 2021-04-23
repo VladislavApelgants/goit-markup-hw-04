@@ -20,7 +20,7 @@
   --bgc-icon-footer: rgba(255, 255, 255, 0.1);
 }
 
-/* ---Common Styles--- */
+/*#region ---Common Styles--- */
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -92,7 +92,10 @@ img {
   overflow: hidden;
 }
 
-/* ---Header--- */
+/*#endregion -------------------- Common Styles End -------------------- */
+
+/*#region ---Header--- */
+
 .header {
   border-bottom: 1px solid var(--color-border-header);
 }
@@ -174,9 +177,9 @@ img {
   fill: currentColor;
 }
 
-/* ---Header end--- */
+/*#endregion ---Header end--- */
 
-/* ---button--- */
+/*#region ---button--- */
 .button {
   display: inline-block;
   padding: 6px 22px;
@@ -229,9 +232,9 @@ img {
 .footer-container {
   display: flex;
 }
-/* ---button end--- */
+/*#endregion ---button end--- */
 
-/* ----Footer---- */
+/*#region ----Footer---- */
 
 .footer {
   padding: 60px 0;
@@ -290,11 +293,9 @@ img {
 .footer-social {
   margin-left: 70px;
 }
-/* ---Footer end--- */
+/*#endregion ---Footer end--- */
 
-/* -------------------- Common Styles End -------------------- */
-
-/* -------------------- Index -------------------- */
+/*#region -------------------- Index -------------------- */
 .hero {
   max-width: 1600px;
   margin-left: auto;
@@ -504,9 +505,9 @@ img {
   border-color: var(--active-color);
 }
 
-/* -------------------- Index end -------------------- */
+/*#endregion -------------------- Index end -------------------- */
 
-/* -------------------- Portfolio -------------------- */
+/*#region -------------------- Portfolio -------------------- */
 
 /* Main */
 
@@ -562,4 +563,4 @@ img {
   display: block;
   box-shadow: var(--card-shadow-portfolio);
 }
-/* -------------------- Portfolio end -------------------- */
+/*#endregion -------------------- Portfolio end -------------------- */
